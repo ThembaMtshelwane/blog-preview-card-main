@@ -95,6 +95,7 @@ h4:hover {
 
 #profile-image {
   width: 50px;
+  cursor: pointer;
 }
 
 #profile-name {
@@ -104,6 +105,12 @@ h4:hover {
   font-weight: 800;
   margin-left: 15px;
   font-size: 0.9rem;
+  cursor: pointer;
+}
+#profile-name:hover {
+  color: #f4d04e;
+  cursor: pointer;
+  transform: scale(1.02);
 }
 
 @media screen and (min-width: 500px) {
